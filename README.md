@@ -59,9 +59,9 @@ The model's performance in each class is as follows:
               atis_ground_service     0.94      0.94      0.94        36
               atis_quantity           0.43      1.00      0.60         3
 
-           accuracy                           0.97       800
-           macro avg      0.82      0.96      0.87       800
-           weighted avg   0.98      0.97      0.97       800
+               accuracy                           0.97       800
+               macro avg      0.82      0.96      0.87       800
+               weighted avg   0.98      0.97      0.97       800
  
 In all classes, we can observe that the model did well, except the class "atis_quantity" which had low precision. At 0.99 for both the 'atis_abbreviation' and 'atis_flight' classes, the model had the maximum precision.
 With an accuracy of 97%, the LSTM model performed well overall on the ATIS dataset. This suggests that it may be a helpful tool for categorizing inquiries about airline travel.
