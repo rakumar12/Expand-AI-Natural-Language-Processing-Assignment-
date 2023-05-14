@@ -50,14 +50,14 @@ We used 4978 training samples from the ATIS dataset to train an LSTM model, and 
 The model's performance in each class is as follows:
 
               precision    recall   f1-score   support
-  atis_abbreviation       1.00      1.00      1.00        33
-  atis_aircraft           0.89      0.89      0.89         9
-  atis_airfare            0.96      0.92      0.94        48
-  atis_airline            0.88      0.97      0.93        38
-  atis_flight             0.99      0.98      0.98       632
-  atis_flight_time        0.50      1.00      0.67         1
-  atis_ground_service     0.94      0.94      0.94        36
-  atis_quantity           0.43      1.00      0.60         3
+              atis_abbreviation       1.00      1.00      1.00        33
+              atis_aircraft           0.89      0.89      0.89         9
+              atis_airfare            0.96      0.92      0.94        48
+              atis_airline            0.88      0.97      0.93        38
+              atis_flight             0.99      0.98      0.98       632
+              atis_flight_time        0.50      1.00      0.67         1
+              atis_ground_service     0.94      0.94      0.94        36
+              atis_quantity           0.43      1.00      0.60         3
 
            accuracy                           0.97       800
            macro avg      0.82      0.96      0.87       800
